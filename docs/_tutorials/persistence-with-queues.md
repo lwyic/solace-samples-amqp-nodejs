@@ -20,6 +20,7 @@ This tutorial assumes the following:
     * Enabled `default` message VPN
     * Enabled `default` client username
     * Enabled `default` client profile with guaranteed messaging permissions.
+    * Created the Queue Endpoint `Q/tutorial` in the `default` message VPN.
 
 One simple way to get access to a Solace message router is to start a Solace VMR load [as outlined here]({{ site.docs-vmr-setup }}){:target="_top"}. By default the Solace VMR will run with the `default` message VPN configured and ready for messaging. Going forward, this tutorial assumes that you are using the Solace VMR. If you are using a different Solace message router configuration, adapt the instructions to match your configuration.
 
